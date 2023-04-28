@@ -8,3 +8,71 @@
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
+/* MAIN */
+.row.flex img{
+    height: 35rem;
+    border-radius: 10px;
+}
+
+.card .img-cover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.card:hover .img-cover {
+    display: inline;
+}
+.row.flex{
+    justify-content: space-between ;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.sales, .sost{
+    padding: 5px 10px;
+    color: white;
+}
+.sost{
+    background-color: green;
+}
+.sales{
+    background-color: red;
+    margin-right: 5px;
+}
+.card{
+    position: relative;
+    display: inline-block;
+}
+.sales-section.flex{
+    position: absolute;
+    bottom: 100px;
+    z-index: 99;
+}
+i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 99;
+}
+i:hover{
+    color: red;
+}
+.info > .name{
+    font-weight: bold;
+}
+.price > .red-price{
+    color: red;
+    font-weight: bold;
+}
+.price > .line-price{
+    text-decoration: line-through;
+}
+
+/* Utils */
+.flex{
+    display: flex;
+}
