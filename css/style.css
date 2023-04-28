@@ -125,6 +125,33 @@ i:hover{
     text-decoration: line-through;
 }
 
+/* Footer */
+footer{
+    margin-top: 50px;
+}
+.main-footer{
+    background-color: #1b1b1b;
+    padding: 25px 0;
+}
+.left-footer li > a{
+    font-size: 1rem;
+}
+.title-footer{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+.socials{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.15rem;
+}
+.social-icons{
+    font-size: 1.6rem;
+    color: white;
+    cursor: pointer;
+}
 /* Utils */
 .flex{
     display: flex;
