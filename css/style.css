@@ -11,7 +11,7 @@
 
 /* MAIN */
 .row.flex img{
-    height: 35rem;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -42,12 +42,13 @@
 }
 .card{
     position: relative;
-    display: inline-block;
+    width: calc(100% / 3 - (100px/3));
 }
-.sales-section.flex{
+.sales-section{
     position: absolute;
     bottom: 100px;
     z-index: 99;
+    display: flex;
 }
 i{
     position: absolute;
@@ -74,5 +75,9 @@ i:hover{
 .flex{
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 50px;
+}
+
+.flexsales{
+    display: flex;
 }
